@@ -40,5 +40,5 @@ else false
 
 if !board.any?{|i| i == " "}
     true
-
+end
 end
