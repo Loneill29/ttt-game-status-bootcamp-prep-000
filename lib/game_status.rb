@@ -47,5 +47,9 @@ else false
   elsif !full_board
     return false
 end
+  if !board.any?{|i| i == " "}
+    true
+  end
+end
 end
 end
