@@ -48,7 +48,7 @@ else false
    elsif won?(board) == false && full?(board) == true || won?(board) == true
      return false
      draw_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-   elsif draw_board == true 
+   elsif draw_board == true
      return true
    end
    end
