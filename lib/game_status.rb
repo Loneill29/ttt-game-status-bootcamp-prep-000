@@ -41,7 +41,9 @@ else false
      full_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
   if full_board == true
     return true
-  else false
+    incomplete_board = ["X", " ", "X", "O", " ", "X", "O", " ", "O"]
+  elsif incomplete_board == true
+    return false
 end
 end
 end
