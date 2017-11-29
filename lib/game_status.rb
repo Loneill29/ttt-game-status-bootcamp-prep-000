@@ -38,7 +38,7 @@ else false
 
  def full?(board)
 
-  elsif !board.any?{|i| i == " "}
+if !board.any?{|i| i == " "}
     true
 
 end
