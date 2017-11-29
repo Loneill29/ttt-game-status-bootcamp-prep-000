@@ -41,8 +41,6 @@ else false
      full_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
   if full_board == true
     return true
-  end
-end
   else false
 end
 end
