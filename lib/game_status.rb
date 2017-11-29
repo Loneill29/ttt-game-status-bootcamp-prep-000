@@ -56,13 +56,8 @@ def over?(board)
   end
 end
 
-
 def winner(board)
-if !won?(board)
-  return false
-elsif win_index_1 == "X"
-  return "X"
-elsif win_index_1 == "O"
-return "O"
-end
-end
+   if winning_combo = won?(board)
+     board[winning_combo.first]
+   end
+ end
