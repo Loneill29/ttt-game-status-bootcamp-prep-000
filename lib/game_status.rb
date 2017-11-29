@@ -26,9 +26,7 @@ def won?(board)
   position_2 = board[win_index_2] # load the value of the board at win_index_2
   position_3 = board[win_index_3]
  # load the value of the board at win_index_2
- # load the value of the board at win_index_3
-
-
+ # load the value of the board at win_index
  if position_1 == "X" && position_2 == "X" && position_3 == "X" ||
  position_1 == "O" && position_2 == "O" && position_3 == "O"
    return win_combination
@@ -37,3 +35,11 @@ def won?(board)
 else false
  end
  end
+
+ def full?(board)
+   board.each do |index|
+  if full_board == true 
+    return true
+  else return false 
+  end 
+end
