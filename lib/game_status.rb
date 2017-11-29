@@ -38,8 +38,8 @@ else false
 
  def full?(board)
    board.each do |index|
-  if full_board == true 
+  if full_board == true
     return true
-  else return false 
-  end 
+  else return false
+  end
 end
