@@ -43,6 +43,6 @@ else false
     return true
   end
 end
-  else return false
+  else false
   end
 end
