@@ -46,4 +46,3 @@ else false
   won?(board) == false && full?(board) == true
   return true
 end
-end
