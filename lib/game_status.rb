@@ -42,7 +42,8 @@ else false
   if full_board == true
     return true
   end
+end
   else false
-  end
+end
 end
 end
