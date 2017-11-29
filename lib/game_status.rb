@@ -13,5 +13,11 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [2,4,6]
 ]
+def won?(board)
+WIN_COMBINATIONS.each do |index|
+  if WIN_COMBINATIONS == true
+    return index
+  else return false
+  end
 
 # Define your WIN_COMBINATIONS constant
