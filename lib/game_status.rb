@@ -17,8 +17,8 @@ def won?(board)
 WIN_COMBINATIONS.each do |index|
   if WIN_COMBINATIONS == true
     return true
-  else false
   end
+  else false
   end
 
 # Define your WIN_COMBINATIONS constant
