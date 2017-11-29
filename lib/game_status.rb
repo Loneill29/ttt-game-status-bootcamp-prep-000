@@ -59,9 +59,9 @@ end
 def winner?(board)
 if !won?(board)
   return false
-elsif !board.any?{|i| i == "X"}
+elsif win_index_1 == "X"
   return "X"
-elsif !board.any?{|i| i == "O"}
+elsif win_index_1 == "O"
 return "O"
 end
 end
