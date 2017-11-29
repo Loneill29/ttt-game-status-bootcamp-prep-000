@@ -22,7 +22,7 @@ def won?(board)
  position_2 = board[win_index_2] # load the value of the board at win_index_2
  position_3 = board[win_index_3] # load the value of the board at win_index_3
 
- WIN_COMBINATIONS.each do |WIN_COMBINATIONS|
+ WIN_COMBINATIONS.each do |index|
    if WIN_COMBINATIONS == true
      return index
    end
