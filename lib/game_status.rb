@@ -44,6 +44,8 @@ else false
     incomplete_board = ["X", " ", "X", "O", " ", "X", "O", " ", "O"]
   elsif incomplete_board == true
     return false
+  elsif !full_board 
+    return false
 end
 end
 end
