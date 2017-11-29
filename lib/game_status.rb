@@ -18,7 +18,7 @@ WIN_COMBINATIONS.each do |index|
   if WIN_COMBINATIONS == true
     return true
   end
-  else false
+  else 
   end
 
 # Define your WIN_COMBINATIONS constant
