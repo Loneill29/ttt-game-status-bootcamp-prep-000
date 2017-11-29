@@ -37,21 +37,9 @@ else false
  end
 
  def full?(board)
-   board.each do |board|
-     full_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-  if full_board == true
-    return true
-    incomplete_board = ["X", " ", "X", "O", " ", "X", "O", " ", "O"]
-  elsif incomplete_board == true
-    return false
-  elsif !full_board
-    return false
-end
-end
-end
+
   elsif !board.any?{|i| i == " "}
     true
 
 end
-end
-end
+
