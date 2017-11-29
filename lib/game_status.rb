@@ -64,4 +64,3 @@ def winner?(board)
 else return false
 end
 end
-end
