@@ -65,4 +65,3 @@ elsif !board.any?{|i| i == "O"}
 return "O"
 end
 end
-end
