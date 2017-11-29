@@ -34,7 +34,7 @@ def won?(board)
   position_8 = board[win_index_8] # load the value of the board at win_index_2
  # load the value of the board at win_index_3
 
- WIN_COMBINATIONS.each do |win_index|
+ WIN_COMBINATIONS.find do |win_index|
  if position_1 == "X" && position_2 == "X" && position_3 == "X"
    return win_combination
  end
