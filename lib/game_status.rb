@@ -32,7 +32,7 @@ def won?(board)
  end
  else return false
  end
- 
+
 
 
 # Define your WIN_COMBINATIONS constant
