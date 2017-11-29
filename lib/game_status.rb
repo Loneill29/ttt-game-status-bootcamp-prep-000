@@ -40,6 +40,7 @@ else false
    board.each do |index|
   if full_board == true
     return true
+  end
   else return false
   end
 end
