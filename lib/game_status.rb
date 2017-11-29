@@ -38,6 +38,7 @@ else false
 
  def full?(board)
    board.each do |index|
+     full_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
   if full_board == true
     return true
   end
