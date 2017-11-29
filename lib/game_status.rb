@@ -57,10 +57,12 @@ def over?(board)
 end
 
 def winner?(board)
-  if win_combination == "X"
-    return "X"
-  elsif win_combination == "O"
-  return "O"
-else return false
+if !won?(board) 
+  return false
+elsif !board.any?{|i| i == "X"}
+  return "X"
+elsif !board.any?{|i| i == "O"}
+return "O"
+end
 end
 end
