@@ -48,9 +48,10 @@ else false
     return false
 end
 end
+end
   elsif !board.any?{|i| i == " "}
     true
-  end
+
 end
 end
 end
